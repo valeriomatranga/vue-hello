@@ -13,10 +13,12 @@
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
+
       <div id="app">
-          {{img}}
           <h1 id="messaggio">{{msg}}</h1>
+        <img :src="img" v-bind:alt="img">
       </div>
+
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
